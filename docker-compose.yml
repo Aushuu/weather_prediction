@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  weather-app:
+    build: .
+    container_name: weather_prediction_dashboard
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1

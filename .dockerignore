@@ -1,0 +1,9 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+README.md
+extracted_tmp/
+data/*.zip

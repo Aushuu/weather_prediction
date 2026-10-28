@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.pytest_cache/
+
+# Large raw datasets (avoid pushing massive CSVs to GitHub)
+# Keep only if < 50MB (india_2000_2024_daily_weather.csv is ~5.8MB, so it can be committed if desired)
+extracted_tmp/
+*.zip
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
